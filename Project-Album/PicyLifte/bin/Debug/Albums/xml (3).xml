@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rootnode>
+	<Cover Name="Cover.jpg" Description="The Album of Crysis"/>
+	<Pic>
+		<pic ShortName="crysis (1)" Name="crysis (1).jpg">
+		</pic>
+		<pic ShortName="crysis (2)" Name="crysis (2).jpg">
+			<Point1 Top="100" Left="200" Text="测试节点1"/></pic>
+		<pic ShortName="crysis (3)" Name="crysis (3).jpg">
+			<Point1 Top="100" Left="200" Text="测试节点2"/>
+			<Point2 Top="100" Left="200" Text="测试节点3"/></pic>
+		<pic ShortName="crysis (4)" Name="crysis (4).jpg">
+			<Point1 Top="100" Left="200" Text="测试节点4"/></pic>
+		<pic ShortName="crysis (5)" Name="crysis (5).jpg">
+		</pic>
+		<pic ShortName="crysis (6)" Name="crysis (6).jpg">
+		</pic>
+		<pic ShortName="crysis (7)" Name="crysis (7).jpg">
+		</pic>
+		<pic ShortName="crysis (8)" Name="crysis (8).jpg">
+		</pic>
+		<pic ShortName="crysis (9)" Name="crysis (9).jpg">
+		</pic>
+		<pic ShortName="crysis (10)" Name="crysis (10).jpg">
+		</pic>
+		<pic ShortName="crysis (11)" Name="crysis (11).jpg">
+		</pic>
+		<pic ShortName="crysis (12)" Name="crysis (12).jpg">
+		</pic>
+		<pic ShortName="crysis (13)" Name="crysis (13).jpg">
+		</pic>
+		</pic>
+	</Pic>
+</rootnode>

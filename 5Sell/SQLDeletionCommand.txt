@@ -1,0 +1,1 @@
+UPDATE `5sell_bookdata` SET `Ordered`=0

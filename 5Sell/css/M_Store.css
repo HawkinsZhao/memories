@@ -1,0 +1,263 @@
+body,ul,dl,dd,p,h1,h2,h3,form,input,textarea,select{margin:0;padding:0}
+body{
+	background-color: #f3f3f3;
+}
+a{color:#FFFFFF;text-decoration:none;}
+a:hover{text-decoration:unerline;}
+
+#SearchDiv{
+	width: 100%;
+	background-color: #F3F3F3;
+	height: 2.9em;
+}
+
+#SearchButton{
+	width: 10%;color: #FFFFFF;text-align: center;background-color: #A97CCA;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	cursor: pointer;
+	height: 2em;
+	float: left;
+	border-right: 1px solid #d5d5d5;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#HomeButton{
+	width: 18%;color: #FFFFFF;text-align: center;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	cursor: pointer;
+	float: left;
+}
+
+#ShopperButton{
+	width: 18%;color: #FFFFFF;text-align: center;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	cursor: pointer;
+	float: right;
+}
+
+#SearchInput{
+	width: 53%;background-color: #FFFFFF;border: none;padding: 0;margin: 0;
+	font-size: 1em;
+	height: 2em;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	border: 1px solid #d5d5d5;
+}
+
+.SearchSelect{
+	width: 33%;
+	line-height: 2em;
+	font-size: 0.5em;
+	
+}
+
+
+
+#SearchTable{
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	border: 1px solid #d5d5d5;
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	
+}
+#BookTable{
+	
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #d5d5d5;
+}
+
+.Store1{
+	width: 25%;
+	text-align: center;
+	padding-left: 0.4em;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.Store2{
+	width: 75%;
+	padding: 1em;
+	vertical-align: top;
+}
+
+.StoreTitle{
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #4b566a;
+}
+
+.ShopperText{
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	font-size: 0.9em;
+	font-weight: 600;
+	color: #4b566a;
+}
+
+.StoreText{
+	margin-top: 0.3em;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	font-size: 0.9em;
+	color:#A97CCA;
+}
+
+.StorePrice{
+	margin-top: 1em;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	font-size: 1.2em;
+	color:#FF0000;
+}
+
+.StoreImg{
+	width: 90%;
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+}
+
+.ListItem{
+	width: 20%;
+	cursor: pointer;
+}
+
+.ListItemText{
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#MoreTable{
+	width: 100%;text-align: center;background-color: #FFFFFF;border-bottom: 1px solid #d5d5d5;padding-top: 0.2em;padding-bottom: 0.2em;
+}
+
+
+/* The flowing one is BookData  */
+
+#HeadDiv{
+	background: #EEEEEE;width: 100%;height: 2.9em;border-bottom: 1px solid #d5d5d5;
+	overflow: hidden;
+}
+
+.MListItemText{
+	font-size: 1em;float: left;width: 25%;color: #A97CCA;text-align: left;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+}
+
+#BookName{
+	font-size: 1.3em;width: 60%;line-height: 2.5em;text-align: center;color: #4b566a;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	float: left;
+}
+
+#InfoTtile{
+	font-size: 1.3em;width: 60%;line-height: 2.5em;text-align: center;color: #4b566a;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	float: left;
+}
+
+#MInfoDes{
+	border-bottom: 1px solid #d5d5d5;text-align: center;background-color: #FFFFFF;width: 100%;padding-bottom: 2em;
+	overflow: hidden;
+}
+
+#MMoreDes{
+	text-align: center;margin-top: 0.5em;width: 100%;border-bottom: 1px solid #d5d5d5;border-top: 1px solid #d5d5d5;padding-top: 1em;padding-bottom: 1em;background-color: #FFFFFF;
+}
+
+#ShopList{
+	width: 100%;
+	background-color: #FFFFFF;
+	
+}
+
+.TableText{
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#OrderForm{
+	margin-top: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#MyName{
+	background-color: #FFFFFF;border: none;padding: 0;margin: 0;
+	border: 1px solid #d5d5d5;
+	width: 90%;
+	line-height: 2em;
+}
+
+#MyQQ{
+	background-color: #FFFFFF;border: none;padding: 0;margin: 0;
+	border: 1px solid #d5d5d5;
+	width: 90%;
+	line-height: 2em;
+}
+
+#ConfirmButton{
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	width: 5em;
+	background-color: #FFFFFF;
+	border: 1px solid #A97CCA;
+	color: #A97CCA;
+	font-size: 1.2em;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1.8em;
+	cursor:pointer;
+	float: right;
+	border-radius: 5px;
+}
+
+#DeleteButton{
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+	width: 7em;
+	background-color: #FFFFFF;
+	border: 1px solid #A97CCA;
+	color: #A97CCA;
+	font-size: 1.2em;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1.8em;
+	cursor:pointer;
+	float: left;
+	border-radius: 5px;
+}
+
+#InfoPrice2{
+	font-size: 1em;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+}
+
+#OrderButton{
+	width: 40%;margin: 0 auto;margin-right: 1em;
+	border-radius: 5px;border: 1px solid #A97CCA;
+	line-height:1.8em;background-color: #FFFFFF;color: #A97CCA;font-size: 1.2em;font-family: '微软雅黑';
+	float: right;
+}
+
+.BottomBack{
+	width: 40%;margin-top: 1em;border-radius: 5px;
+	border: 1px solid #A97CCA;margin:  1em auto;line-height: 2em;background-color: #FFFFFF;color: #A97CCA;
+	font-family: Microsoft YaHei UI Light,"微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+}
+
+#BottomDisplay{
+	position: fixed;
+	bottom: 0;
+	height: 9em;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-top: 1px solid #D5D5D5;
+	display: none;
+}
+
+.StoreList{
+	width: 14%;
+	float: left;
+}

@@ -1,0 +1,312 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,ul,dl,dd,p,h1,h2,h3,form,input,textarea,select{margin:0;padding:0}
+a{TEXT-DECORATION:none;display:block}
+a:link {color: none} /* 未访问的链接 */
+a:visited {color: #a75348} /* 已访问的链接 */
+a:hover {color: none} /* 鼠标移动到链接上 */
+a:active {color: none} /* 选定的链接 */
+img {border:none}
+h3 {font-weight:400;
+}
+b.rtop, b.rbottom{display:block;background: #ebebeb}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #f9f9f9}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+/* Body Part */
+body {
+    font-size: 0px;
+    font-family: "微软雅黑",arial, "宋体", sans-serif, "Microsoft YaHei", tahoma;
+    color: #fff;
+    background: url(../Image/Index/PageBack.jpg);
+}
+
+
+/* Pagefoot */
+#pagefoot{width:100%;margin:20px 0px auto;background:url(../Image/Index/bg3.jpg)}
+
+/* NavigateMenu Part */
+#NavigateMenu
+{
+	width:85%;height:50px;float:right;
+}
+#Navigate{margin:0 auto;width:100%;height:50px;}
+
+/* TOP Part */
+#top{width:100%;max-width:1250px;height:50px;margin:0 auto;}
+#MaxContainer {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+#PageHead {
+    background: #ff6d37;
+    overflow:hidden;
+    background:#ff6d37 url(../Image/Index/SiteName.bmp) center repeat-y;
+}
+
+#GuideLine {
+    width:100%;
+    max-width:1250px;
+    overflow: hidden;
+}
+
+.GLItem {
+    width: 130px;
+    float: left;
+}
+
+.HomeItem {
+    width: 80px;
+    float: left;
+    height: 40px;
+}
+
+.TopGuideText {
+    margin: 0 auto;
+    line-height: 60px;
+    color: #ff6d37;
+    font-size: 30px;
+    text-align: center;
+    font-weight:700;
+}
+.HiddenGuideDiv {
+    display:none;
+
+}
+
+.VisuableGuideDiv {
+    display: none;
+    background: url(../Image/Index/GuideDrop.png);
+    top: 130px;
+    position: absolute;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.ViusalGuideText {
+    font-size: 15px;
+    margin-top:9px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+}
+
+.ShadowBox {
+    width: 98%;
+    margin: 0 auto;
+    /*
+	第一个参数是x轴阴影段长度
+	第二个参数是y轴阴影段长度
+	第三个参数是往四周阴影段长度
+	第四个参数是阴影段颜色
+	*/
+    box-shadow: 0px 0px 10px #606060;
+    -moz-box-shadow: 0px 0px 10px #606060;
+    -webkit-box-shadow: 0px 0px 10px #606060;
+    /*direction 阴影角度 0°为从下往上 顺时针方向 strength 阴影段长度*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=0, strength=5)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=90, strength=5)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=180, strength=5)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=270, strength=5)";
+    *filter: progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=0, strength=5)
+     progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=90, strength=5)
+     progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=180, strength=5)
+     progid:DXImageTransform.Microsoft.Shadow(color=#606060, direction=270, strength=5);
+}
+.ShadowBox-IndexPage {
+    width: 98%;
+    margin: 0 auto;
+    /*
+	第一个参数是x轴阴影段长度
+	第二个参数是y轴阴影段长度
+	第三个参数是往四周阴影段长度
+	第四个参数是阴影段颜色
+	*/
+    box-shadow: 0px 0px 10px #8b8b8b;
+    -moz-box-shadow: 0px 0px 10px #8b8b8b;
+    -webkit-box-shadow: 0px 0px 10px #8b8b8b;
+    /*direction 阴影角度 0°为从下往上 顺时针方向 strength 阴影段长度*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6)";
+    *filter: progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6);
+}
+
+/* content part */
+#content
+{
+	width:953px;margin:0 auto;
+        background:url(../Image/Index/PageBackground.jpg);
+}
+
+#MainAbs {
+    position:absolute;
+    width:100%;
+    z-index:1;
+}
+
+#LeftSider {
+    width:100%;max-width:1160px;margin:0 auto
+}
+
+
+.ItemContainer {
+    width:580px;overflow:hidden;margin-left:30px;
+}
+#ItemAndGuide {
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#content-Inter
+{
+	width:953px;margin:0 auto;
+        background:url(../Image/Index/PageBackground2.jpg);
+}
+
+.IndTitle {
+    line-height:50px;
+    font-size:35px;
+    width:90%;
+    margin:25px auto;
+    color:#000;
+}
+
+.IndText {
+    margin:0px auto;
+    line-height:30px;
+    font-size:20px;
+    width:90%;
+    color:#000;
+    /*background:#25e486;*/
+}
+
+/* IndexPagePart */
+#others{width:20%;background:#33C;float:left;}
+#Pics{width:80%;background:#333;float:left;}
+
+#RightGuide {
+    float: right;
+    width: 36%;
+    margin:0 auto;
+}
+
+ul {
+    -webkit-padding-start:0px;
+}
+
+.HeadDivSlipter {
+    position:absolute;
+    width: 100%;
+    z-index:0;
+    top:0;
+}
+
+.RowDivSlipter {
+    height: 20px;
+    width: 100%;
+}
+
+/* Right Side Guider Part*/
+#MiddleDivSlipter {
+    width: 3%;
+    height: 100px;
+    float: left;
+}
+
+#GuidePicContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.H25PxDivSlipter {
+    height: 25px;
+    width: 100%;
+}
+
+.H20PxDivSlipter {
+    height: 20px;
+    width: 100%;
+}
+
+#SiteName {
+    margin: 0 auto;
+    font-size: 40px;
+    color: #a75348;
+    text-align: center;
+    letter-spacing:15px;
+}
+
+#GalleryName {
+    margin: 0 auto;
+    font-size: 40px;
+    color: #a75348;
+    text-align: center;
+    letter-spacing:15px;
+}
+
+.GuideTitle {
+    margin: 0 auto;
+    font-size: 45px;
+    color: #a75348;
+    text-align: center;
+    letter-spacing:15px;
+}
+
+.GuideText {
+    margin:0px auto;
+    line-height:25px;
+    font-size:15px;
+    width:80%;
+    color:#595959;
+    list-style-type: none;
+    letter-spacing:5px;
+}
+
+.MainText {
+    font-size:15px;
+    color: #313131;
+    line-height: 25px;
+    letter-spacing: 2px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#GuideHead {
+    margin:0 auto;
+    font-size:25px;
+    width:85%;
+    color:#ff6d37;
+}
+
+.Shadow-div {
+	/*
+	第一个参数是x轴阴影段长度
+	第二个参数是y轴阴影段长度
+	第三个参数是往四周阴影段长度
+	第四个参数是阴影段颜色
+	*/
+    box-shadow:0px 0px 10px #CCCCCC;
+    -moz-box-shadow:0px 0px 10px #CCCCCC;
+    -webkit-box-shadow:0px 0px 10px #CCCCCC;
+	/*direction 阴影角度 0°为从下往上 顺时针方向 strength 阴影段长度*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6)";
+    *filter:progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6);
+}
+
+.GuideImg {
+    margin-left:18px;
+    width: 100%;
+}

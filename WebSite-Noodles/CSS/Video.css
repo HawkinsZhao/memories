@@ -1,0 +1,70 @@
+﻿#VideoContainer{width:100%;background:#ffad39;}
+#VideoPlayer{width:100%;background:#f49917;}
+#VideoTitle{margin:0 auto;width:95%;height:50px;background:#ffad39;font:'Microsoft YaHei', 微软雅黑, Arial, Lucida Grande, Tahoma, sans-serif;color:#FFF}
+#Introduction{width:100%;background:#FFF}
+#SxInd {
+    width:100%;
+    background: #fff0bb;
+}
+#SxLeftPart {
+    width: 65%;
+    /*background: #e02929;*/
+    float:left;
+}
+#SxRightPart {
+    width: 35%;
+    /*background: #33C;*/
+    float: right;
+}
+#PicCotainer {
+    width: 86%;
+    margin: 25px 25px 25px 25px;
+}
+
+.Container {
+    width:95%;
+    margin:0 auto;
+
+}
+
+.IndTitle {
+    line-height:50px;
+    font-size:35px;
+    width:90%;
+    margin:25px auto;
+}
+
+.IndText {
+    margin:0px auto;
+    line-height:30px;
+    font-size:20px;
+    width:90%;
+    /*background:#25e486;*/
+}
+
+#SxNoodles {
+    margin:0 auto;
+    width:100%;
+    background:#CC6633;
+}
+
+#NooText {
+    width:100%;
+    float:left;
+    /*background:#f00;*/
+}
+
+.PicPlayer {
+    width:90%;
+    margin:25px auto;
+}
+
+#NooPics {
+    width: 100%;
+    overflow: hidden;
+}
+
+.NooPicstyle {
+    width: 33%;
+    float: left;
+}

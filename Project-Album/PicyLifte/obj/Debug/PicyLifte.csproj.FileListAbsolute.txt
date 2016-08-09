@@ -1,0 +1,16 @@
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Debug\Back.jpg
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Debug\PicyLifte.exe
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Debug\PicyLifte.pdb
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\MainWindow.baml
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\MainWindow.g.cs
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\App.g.cs
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\PicyLifte_MarkupCompile.cache
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\PicyLifte.g.resources
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\PicyLifte.exe
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\PicyLifte.pdb
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\TalkPoint.baml
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\TalkPoint.g.cs
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\PicyLifte.csprojResolveAssemblyReference.cache
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\MesgWindow.baml
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Debug\MesgWindow.g.cs

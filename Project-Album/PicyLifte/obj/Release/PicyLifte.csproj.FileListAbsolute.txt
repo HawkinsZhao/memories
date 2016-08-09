@@ -1,0 +1,16 @@
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Release\Back.jpg
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Release\PicyLifte.exe
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Release\PicyLifte.pdb
+F:\WPFAPP\PicyLifte\PicyLifte\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\MainWindow.baml
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\TalkPoint.baml
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\MainWindow.g.cs
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\TalkPoint.g.cs
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\App.g.cs
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\PicyLifte_MarkupCompile.cache
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\PicyLifte.g.resources
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\PicyLifte.exe
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\PicyLifte.pdb
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\PicyLifte.csprojResolveAssemblyReference.cache
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\MesgWindow.baml
+F:\WPFAPP\PicyLifte\PicyLifte\obj\Release\MesgWindow.g.cs

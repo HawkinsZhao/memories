@@ -1,0 +1,37 @@
+﻿b.rtop, b.rbottom{display:block;background: #ebebeb}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #f9f9f9}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+
+.H30PxDivSlipter {
+    width: 100%;
+    height: 30px;
+    background: #f9f9f9;
+}
+
+#IconsContainer {
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#TextContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ResearchHead {
+    font-size: 40px;
+    color: #ff6d37;
+}
+.ResearchTitle {
+    font-size:30px;
+    color:#ff6d37;
+}
+
+.ResearchText {
+    font-size: 20px;
+    color: #7d7d7d;
+}
